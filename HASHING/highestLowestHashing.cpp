@@ -15,7 +15,7 @@ int main(){
         mpp[arr[i]]++;
     }
     for(auto it: mpp){
-        cout<< it.first <<"->"<<it.second<<endl;
+        cout<< it.first<< "(key)" <<"->"<<it.second<<"(value/frequecy)"<<endl;
     }
 
     int max_fre = 0; int min_fre = n; //! bcz min frequecy of a number cant be greater than number of elements 
