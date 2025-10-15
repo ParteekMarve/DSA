@@ -12,7 +12,7 @@ int main(){
     // precompute
     unordered_map<int,int> mpp;
     for(int  i= 0;i<n;i++){
-        mpp[arr[i]]++;
+        mpp[arr[i]]++; //! used to count the frequency of each element in arr.
     }
     for(auto it: mpp){
         cout<< it.first <<"->"<<it.second<<endl;
