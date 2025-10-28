@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
     int n = 5;
-    int arr[n] = {99,19,2,98,32};
+    int arr[n] = {9,9,9,9,9};
     
     // sort(arr, arr + n);
 
@@ -14,8 +14,8 @@ int main(){
     // cout<<arr[n-2];//! not a god approach as T.C.= O(n*logn)
 
     //? Better method => Two pass search
-    int mx = -1;  // for alargest no
-    int smx = -1;
+    int mx = INT16_MIN;  // set to min int value
+    int smx = INT16_MIN; // set to min int value
     for(int i = 0;i<n;i++){
         if(arr[i]> mx){
             mx = arr[i];
@@ -28,9 +28,14 @@ int main(){
         if(arr[i] != mx && arr[i]> smx){  //! checks only if current elmt is less than max elemnt amd > smx(current)
             smx = arr[i];
         }
-        
+    }
+    if(smx == INT16_MIN){
+        cout<<-1;
+    }
+    else{
+        cout<<smx;
     }
     
-cout<<smx; //! O(n) **
+ //! O(n) **
      
 }
