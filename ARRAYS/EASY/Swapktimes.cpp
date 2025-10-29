@@ -16,7 +16,7 @@ int main(){
     cin>>k;
     k = k%n;
     int arr[7] = {1,2,3,4,5,6,7};
-    // for(int time = 0;time<k;time++){    //! T.C. = O(n*k) much for larger arrays
+    // for(int time = 0;time<k;time++){    //! T.C. = O(n*k) much for larger arrays, S.C. = O(1)
     //     for(int i = 0;i<=n-2;i++){
     //     swap(arr[i],arr[i+1]);
     // }
@@ -26,7 +26,7 @@ int main(){
     //! Optimal and best
 
     reverse(arr,0,n-k-1);
-    reverse(arr,n-k,n-1);
+    reverse(arr,n-k,n-1);    //! T.C. = 0(n-k-1-1-k+n-1) = O(2n)  , S.C. = O(1)
     reverse(arr,0,n-1); 
 
     
@@ -37,7 +37,7 @@ int main(){
     //     temp[i] = arr[i];
     // }
     
-    // for(int  i = k;i<n;i++){
+    // for(int  i = k;i<n;i++){     //! T.C = O(k+n-k+k) = O(k+n), S.C = O(K)
     //     arr[i-k] = arr[i];
     // }
      
