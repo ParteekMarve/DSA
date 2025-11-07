@@ -46,8 +46,9 @@ int main(){
     }
     sort(arr, arr+n);
     // found(arr,n,tarnum);
-    // found_2nd(arr,n,tarnum);
-    // found_3rd(arr,n,tarnum);
+    // found_2nd(arr,n,tarnum);  // ! Brute Force - nested for loops 
+    // found_3rd(arr,n,tarnum); //! Better - Hashing
+    //! Optimal - 2 Pointer approach
     int left  = 0;
     int right = n-1;
     while(left< right){
@@ -55,6 +56,8 @@ int main(){
         if(sum == tarnum){
             cout<< arr[left] << arr[right];
             return 0;  //! if we use [break] here then we have to add another flag like bool found = true || by using return 0 it directly exits and goes to the main function
+                       /*Use break → if you want to continue after the loop.
+                         Use return → if you want to exit the function/program immediately. */
         }
         else if(sum < tarnum) left++;
         else right--;
