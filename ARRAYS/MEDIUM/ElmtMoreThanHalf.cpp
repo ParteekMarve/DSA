@@ -48,7 +48,7 @@ int main(){
         }
         else if(arr[i] == elmnt){
             count++;
-        }
+        }  
         else{
             count--;
         }
