@@ -6,11 +6,11 @@ class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
     if (nums.empty()) return 0;
-    int i = 0;
-    for (int j = 1; j < nums.size(); j++) {
-        if (nums[j] != nums[i]) {
+    int i = 0;       // i marks the last filled position for unique elmt
+    for (int j = 1; j < nums.size(); j++) { // j scans through array and finds next unique elmnt
+        if (nums[j] != nums[i]) { // means we found unique elmnt
             i++;
-            nums[i] = nums[j];
+            nums[i] = nums[j];  // places/shifts unique elemt to it's actual postin
         }
     }
     return i + 1;
