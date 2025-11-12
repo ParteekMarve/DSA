@@ -22,12 +22,19 @@ using namespace std;
 //bool found_2nd(int arr[], int n, int tarnum) {
 //     unordered_map<int, int> mpp;
 //     for (int i = 0; i < n; i++) {
-//         int temp = tarnum - arr[i];
-//         if (mpp.count(temp)) {
+//         int temp = tarnum - arr[i];  //!its like a = b + c where b is known and a - c gives b
+//         if (mpp.count(temp)) {   //!   mpp.count(temp) returns the number of times temp appears as a key in the map
+                                        /*For unordered_map, it returns either:
+                                            1 if the key exists
+                                            0 if the key doesn't exist */
+               //! Alternates ways to check presence of temp {key}
+              /*mpp.count(temp) != 0
+                mpp.find(temp) != mpp.end()
+                mpp.contains(temp) (C++20 and later)*/
 //             cout << temp << " " << arr[i] << endl;
 //             return true;
 //         }
-//         mpp[arr[i]] = i;  // insert after checking
+//         mpp[arr[i]] = i;  // if that element{} is not 
 //     }
 //     return false;
 // }
