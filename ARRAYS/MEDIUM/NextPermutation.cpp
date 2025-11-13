@@ -25,9 +25,10 @@ int main(){
      }
      //* now we have got the breaking index and the longest prfix part of next permutation
     //! Now we have to find the element just  greater than the element at brk_idx bcz then only we will gwt closer to the just next permutation
-     for(int i = n-1;i>=brk_idx;i--){
+     for(int i = n-1;i>brk_idx;i--){
         if(arr[i] > arr[brk_idx]){
             swap(arr[i],arr[brk_idx]);
+            break;   // bcz we know the rest of array after brk_idx is sorted form right to idxleft therefoore right most elmnt must bw smallest but larger than arr[brk_]
         }
      }
      //* now we have got the correct starting elements of next array 
