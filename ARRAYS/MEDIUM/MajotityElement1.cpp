@@ -47,7 +47,7 @@ int main(){
             elmnt = arr[i];   // elmnt gets its first valid value (elmnt = arr[i];) before any comparison ever happens.
         }
         else if(arr[i] == elmnt){
-            count++;
+            count++;     //! **Analogy:** "My candidate appeared again! +1 point"
         }  
         else{
             count--;
