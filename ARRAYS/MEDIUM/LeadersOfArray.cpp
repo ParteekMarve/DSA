@@ -10,20 +10,20 @@ int main(){
         cin>>arr[i];
     }
     //! BRUTE FORCE
-    // vector<int> ans;
-    // for(int i = 0;i<n;i++){
-    //     int crnt_leader = arr[i];
-    //     int j;
-    //     for(j = i+1;j<n;j++){
-    //         if(arr[j] > crnt_leader){
-    //             break;
+    vector<int> ans;
+    for(int i = 0;i<n;i++){
+            bool leader = true;  //! asssuming that current element is leader overall
+        for(int j = i+1;j<n;j++){
+            if(arr[j] > arr[i]){
+                leader = false;     //! means cuuent elemnt was not the leader then move to next element
+                break;
 
-    //         }
-    //     }
-    //     if(j == n){  //! means we dinn't found any element greater than the cureent leader 
-    //         ans.push_back(crnt_leader);  //! then store it our answer vector
-    //     }
-    // }
+            }
+        }
+        if(leader){  //! means we dinn't found any element greater than the cureent leader 
+            ans.push_back(arr[i]);  //! then store it our answer vector
+        }
+    }
 
     // for(int i = 0;i< ans.size();i++){
     //     cout<< ans[i] << " ";
