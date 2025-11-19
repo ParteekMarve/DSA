@@ -1,3 +1,18 @@
+/*1. Brute Force (commented): Mark rows/columns with -1, then convert to 0
+   - Time: O(n*m*(n+m)), Space: O(1)
+   - Issue: Doesn't work if matrix contains -1
+
+2. Better Solution (commented): Use auxiliary(extra) arrays to track zero positions
+   - Time: O(2*n*m), Space: O(n+m)
+   - Track rows and columns containing zeros separately
+
+3. Optimal Solution (active): Use first row/column as markers
+   - Time: O(n*m), Space: O(1)
+   - Store first row/column state in separate flags
+   - Use matrix's first row/column as marker space
+   - Process from (1,1) to avoid overwriting markers
+   - Handle first row/column separately at the end*/
+
 #include<iostream>
 using namespace std;
 // void markRow(int arr[][100],int i,int m){   /*First dimension (empty): Can be omitted because the function doesn't need it for address calculation
@@ -60,7 +75,7 @@ int main(){
     // for(int i = 0;i<n;i++){
     //     for(int j = 0;j<m;j++){
     //         if(arr[i][j] == 0){    //! if the entire Row or Entire Column has atleast of 1 zero then whule row and colm will be zero
-    //             row[i] = true;
+    //             row[i] = true;   //* means at this index we need to print 0 at this row {just marked}
     //             colm[j] = true;
     //             postion_found = true;
     //         }
@@ -82,7 +97,7 @@ int main(){
     //      cout << endl;
     // }
 
-    //! OPTIMAL SOLUTION{LOGIC- optimize space complexity }
+    //! OPTIMAL SOLUTION{LOGIC- optimize space complexity || Here we used the 1st inner arrays  }
     bool firstRow_0 = false;
     bool firstColm_0 = false;
     for(int j = 0;j<m;j++){
