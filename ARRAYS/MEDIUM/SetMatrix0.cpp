@@ -68,7 +68,7 @@ int main(){
     //              cout << endl;
     //  }
        
-    //   //! BRUTE FORCE{LOGIC -- Mark those rows and cells in which 0 appeared atleast once}
+    //   //! BETTER APPROACH{LOGIC -- Mark those rows and cells in which 0 appeared atleast once}
     //   int row[n] = {0};
     //   int colm[m] = {0};                 //? T.C.- O(2*n*m){best} | S.C - O(n+m)
     //   bool postion_found = false;
