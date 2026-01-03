@@ -1,3 +1,5 @@
+/*st.find(x) == st.end()x is NOT in set
+st.find(x) != st.end()x is in set*/
 #include<iostream>
 #include<algorithm>
 #include<vector>
@@ -63,10 +65,10 @@ int main(){
         temp.insert(arr[i]);
     }
     for(auto it: temp){
-        if(temp.find(it - 1) == temp.end()){   //! it checks for each elmnt wheather it can be the starting of a consecutive sequesce or not | if yes start sequence from current iterator and search for its next elements
-            len = 1;                          //!  //!Checks if (it - 1) exists in the set. If it doesn't exist (returns temp.end()), then it is the start of a new consecutive sequence
+        if(temp.find(it - 1) == temp.end()){   //! checks that it -1 does not exists in set therefore it is the starting one
+            len = 1;                          //! { condition is true when the element is NOT found. ✅} //!Checks if (it - 1) exists in the set. If it doesn't exist (returns temp.end()), then it is the start of a new consecutive sequence
             int x = it;                                                                                                //! **end is the NULL or NOT FOUND marker for iterators**
-            while(temp.find(x) != temp.end()){    //* while consecutive numbers exists in map, keep counting
+            while(temp.find(x+1) != temp.end()){  //! means if u have x+1 then u don't have temp.end() ✅
                 x = x + 1;      // search for the next consecutive elmnt for x 
                 len++;
             }
