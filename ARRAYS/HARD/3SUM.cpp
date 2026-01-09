@@ -10,11 +10,10 @@ public:
     vector<vector<int>> threeSum(vector<int>& nums) {
         int n = nums.size();
         set<vector<int>> unq;
-        //! OPTIMAL {OPTIMAL}
+        //! OPTIMAL {*2 POINTER + DUPLICATE HANDLING MANUAALY}
         vector<vector<int>> ans;
         sort(nums.begin(), nums.end());
-        
-        // *OPTIMAL* {2 POINTER}
+    
         for(int i = 0; i < n; i++){
             // checking for duplicate and this only happens when the fixed element is at any index except the 0th bcz for 0th idx we have no need to check
             if(i > 0 && nums[i] == nums[i-1]) continue;
