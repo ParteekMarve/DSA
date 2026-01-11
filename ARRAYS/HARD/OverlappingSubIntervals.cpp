@@ -33,12 +33,12 @@ public:
 //         for(int i = 0;i<n;i++){
 //             int start = intervals[i][0];
 //             int end = intervals[i][1];
-//             // firstly check if the current interval is merged or not 
+             // firstly check if the current interval is merged or not 
 //             if(!ans.empty() and end <= ans.back()[1]) continue; // skip already part of merged intervals\
-//             // Try to merge with all subsequent intervals
+             // Try to merge with all subsequent intervals
 //             for(int j = i+1;j<n;j++){
 //                 if(intervals[j][0] <= end){ //  overlapping condition
-//                     // update the end => merging of intervlas
+                     // update the end => merging of intervlas
 //                     end = max(end,intervals[j][1]);
 //                 }
 //                 else{
