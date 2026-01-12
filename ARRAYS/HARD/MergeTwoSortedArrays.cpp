@@ -16,7 +16,7 @@ class Solution{
         int second_last = n-1; //Last element of nums2
         int last_pos = m+n-1;// last position of 1st array
         while(second_last>=0){
-            if(nums1[first_last] >= nums2[second_last]){
+            if(first_last>0 and nums1[first_last] >= nums2[second_last]){
                 nums1[last_pos] = nums1[first_last];
                 last_pos--;
                 first_last--;
