@@ -6,20 +6,22 @@ class LowerBoundFinder {
 public:
     // Function to find the lower bound using binary search
     int lowerBound(vector<int>& nums, int n, int x) {
-        int lb = n; // retrun the last possible hypothetical index if lb not found 
-        int low = 0;
-        int high = n-1;
-        while(low<=high){
-            int mid = low+(high-low)/2;
-            if(nums[mid] >= x){
-                lb = mid;
-                high = mid-1;
-            }
-            else {
-                low = mid+1;
-            }
-        }
-        return lb;
+        //Simple Use in built lower bound function
+        return lower_bound(nums.begin(),nums.end(),x)-nums.begin();
+        // int lb = n; // retrun the last possible hypothetical index if lb not found 
+        // int low = 0;
+        // int high = n-1;
+        // while(low<=high){
+        //     int mid = low+(high-low)/2;
+        //     if(nums[mid] >= x){
+        //         lb = mid;
+        //         high = mid-1;
+        //     }
+        //     else {
+        //         low = mid+1;
+        //     }
+        // }
+        // return lb;
     }
 };
 
