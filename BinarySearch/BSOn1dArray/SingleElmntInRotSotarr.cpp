@@ -21,10 +21,10 @@ public:
         int high = n - 1;
         while (low < high) {
             int mid = low + (high - low) / 2;
-            if (mid % 2 == 1)
+            if (mid % 2 == 1) // Always keep mid at even index for getting proper output
                 mid--;
             if (nums[mid] == nums[mid + 1]) {
-                low = mid + 2;
+                low = mid + 2; // Bcz we wnat to check pairs as mid+1 has already been computed
             } else {
                 high = mid;
             }
