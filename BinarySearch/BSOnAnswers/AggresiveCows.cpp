@@ -1,3 +1,4 @@
+//! The Goal: Place k cows in stalls such that the minimum distance between any two of them is as large as possible.
 #include <iostream>
 #include <vector>
 #include <algorithm>
