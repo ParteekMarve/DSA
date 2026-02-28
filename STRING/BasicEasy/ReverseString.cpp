@@ -5,8 +5,8 @@
 #include<algorithm>
 using namespace std;
 //! BRUTE FORCE 
-// my thought is to 1st reverse the whole string and then reverse each word and we will be getting answer
-    string reverseWords(string s) {
+// main idea - put all valid words into a vector then reverse it and join all words in vector by single space **
+string reverseWords(string s) {
         int len = s.length();
         string word = "";
         string result = "";
@@ -23,7 +23,7 @@ using namespace std;
                 word+=s[i]; 
             }
         } 
-         // push last word (VERY IMPORTANT)
+         // push last word (VERY IMPORTANT)**
         if (!word.empty()) {
             get_word.push_back(word);
         }
@@ -53,11 +53,12 @@ using namespace std;
     //         if(new_word.length() > 0){
     //             result+= " " + new_word;
     //         }
-    //         // here i have to remove somehow the 0th index of result string to get correct answer
+    //         here i have to remove somehow the 0th index of result string to get correct answer
 
     //     }
     //     return result.substr(1);
     // }
+
 
 //! OPTIMAL -1
 // string reverseWords(string s) {
