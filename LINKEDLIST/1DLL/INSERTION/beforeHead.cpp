@@ -28,7 +28,7 @@ Node* convertArr2LL(vector<int> &arr){
     return head;
 }
 //! New Node In Front of Head making it as new head
-Node* placeNewHead(Node* head,int val){
+Node* InsertHead(Node* head,int val){
     Node* temp = new Node(val,head);
     return temp; // as a new head
 }
@@ -47,7 +47,7 @@ void printLL(Node* head){
 int main(){
     vector<int> arr = {1,2,3,4};
     Node* head = convertArr2LL(arr);
-    head = placeNewHead(head,0);
+    head = InsertHead(head,0);
     printLL(head);
     
     
