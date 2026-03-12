@@ -39,7 +39,7 @@ Node* removeTail(Node* head){
     return head;
 }
 
-// ✅ Helper to print entire linked list
+//  Helper to print entire linked list
 void printLL(Node* head){
     Node* temp = head;
     while(temp != nullptr){
