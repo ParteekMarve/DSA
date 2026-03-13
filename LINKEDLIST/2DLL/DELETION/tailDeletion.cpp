@@ -27,19 +27,26 @@ Node* convertArr2DLL(vector<int> &arr){
     // traverse across rest of the array
     for (int i = 1;i<arr.size();i++){
         Node* temp = new Node(arr[i],nullptr,prev); // !Creates new node for each array element
-        prev->next = temp;      
+        prev->next = temp; //? Links current last node to new node
+                            //? mover is just a COPY of head's address      
         prev = temp;
     }
     return head; // bcz in linked list we are asked to return head of the LL not the whole LL
 }
 
-Node* delete_Head(Node* head){
-    if(head==NULL || head->next == NULL) return NULL;
-    Node* prev = head;
-    head = head->next;
-    head->prev = nullptr;
-    prev->next = nullptr;
-    delete prev;
+Node* delete_tail(Node* head) {
+
+    Node* tail = head;
+
+    while (tail->next != NULL) {
+        tail = tail->next;
+    }
+
+    Node* newTail = tail->prev;
+    newTail->next = nullptr;
+    tail->prev = nullptr;
+
+    delete tail;
     return head;
 }
 
@@ -55,6 +62,6 @@ void print(Node* head){
 int main(){
     vector<int> arr = {1,2,3,4};
     Node* head = convertArr2DLL(arr);
-    head = delete_Head(head);
+    head = delete_tail(head);
     print(head);
 }
