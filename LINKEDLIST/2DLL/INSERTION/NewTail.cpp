@@ -33,6 +33,10 @@ Node* convertArr2DLL(vector<int> &arr){
 }
 
 Node* insert_new_tail(Node* head,int val){
+    if(head==NULL){
+        return new Node(val, nullptr, nullptr);
+    }
+
     Node* back = head;
     while(back->next != NULL){
         back = back->next;
