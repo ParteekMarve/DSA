@@ -1,4 +1,5 @@
 #include <iostream>
+#include<unordered_set>
 using namespace std;
 
 // Definition for singly-linked list
@@ -11,7 +12,31 @@ struct ListNode {
         next = NULL;
     }
 };
+//! Brute Force{Using set}
+class Solution {
+public:
+    // Function to detect start of loop using Hash Map
+    ListNode* detectCycle(ListNode* head) {
+        //? Creating a map to store visited nodes
+        unordered_set<ListNode*> visited;
+        while (head != NULL) {
+            // If current node is already in set, it's the start of loop
+            if (visited.find(head) != visited.end()) {
+                return head;
+            }
 
+            // Otherwise, insert current node into set
+            visited.insert(head);
+
+            // Move to the next node
+            head = head->next;
+        }
+
+        // If loop not found, return NULL
+        return NULL;
+    }
+};
+//! OPTIMAL{FAST-SLOW POINTER}
 class Solution {
 public:
 
