@@ -15,7 +15,7 @@ public:
             else {
                 // if it is a closing bracket
                 if(st.empty()) return false;
-                
+                // if the last closed braket is same as the cuurent opened then ok else not valid
                 char top = st.top();
                 st.pop();
                 if (s[i] == ')' && top != '(') return false;
