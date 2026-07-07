@@ -37,16 +37,13 @@ public:
                 
             }
 
-            else if(s[i] == '^'){ // bcz it is a right assosicitive means : a^b^c works as a^(b^c) instead of (a^b)^c so if wee keep poping out when we see same ^ it will 
-                st.push(s[i]);
-            }
-
             else{
                 // it is a operator exceptt '('
-                while(!st.empty() && precedence(s[i]) <= precedence(st.top())){
-                    // if precedence(s[i]) < precedence(st.top())
-                    ans+=st.top();
-                    // after that just add the cuurent operator
+                while(!st.empty() && st.top() != '(' &&
+                    (precedence(s[i]) < precedence(st.top()) ||
+                    (precedence(s[i]) == precedence(st.top()) && s[i] != '^')))
+                {
+                    ans += st.top();
                     st.pop();
                 }
                 st.push(s[i]);
