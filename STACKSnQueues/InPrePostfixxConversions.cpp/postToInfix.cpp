@@ -17,6 +17,7 @@ public:
 
             // Operator
             else {
+                // take out top 2 elemnts and add operator between them and wrap it by () and push into stack as string
                 string op2 = st.top();
                 st.pop();
 
