@@ -16,6 +16,7 @@ ON THE WAY TO BE GOOD AT DSA
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ParteekMarve/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/ParteekMarve/DSA/tree/master/0424-longest-repeating-character-replacement) |
+| [0460-lfu-cache](https://github.com/ParteekMarve/DSA/tree/master/0460-lfu-cache) |
 | [0904-fruit-into-baskets](https://github.com/ParteekMarve/DSA/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/ParteekMarve/DSA/tree/master/0930-binary-subarrays-with-sum) |
 ## Sliding Window
@@ -42,4 +43,16 @@ ON THE WAY TO BE GOOD AT DSA
 |  |
 | ------- |
 | [1004-max-consecutive-ones-iii](https://github.com/ParteekMarve/DSA/tree/master/1004-max-consecutive-ones-iii) |
+## Linked List
+|  |
+| ------- |
+| [0460-lfu-cache](https://github.com/ParteekMarve/DSA/tree/master/0460-lfu-cache) |
+## Design
+|  |
+| ------- |
+| [0460-lfu-cache](https://github.com/ParteekMarve/DSA/tree/master/0460-lfu-cache) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0460-lfu-cache](https://github.com/ParteekMarve/DSA/tree/master/0460-lfu-cache) |
 <!---LeetCode Topics End-->
