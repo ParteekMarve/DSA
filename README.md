@@ -15,6 +15,7 @@ ON THE WAY TO BE GOOD AT DSA
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ParteekMarve/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/ParteekMarve/DSA/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/ParteekMarve/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0460-lfu-cache](https://github.com/ParteekMarve/DSA/tree/master/0460-lfu-cache) |
 | [0904-fruit-into-baskets](https://github.com/ParteekMarve/DSA/tree/master/0904-fruit-into-baskets) |
@@ -23,6 +24,7 @@ ON THE WAY TO BE GOOD AT DSA
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ParteekMarve/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/ParteekMarve/DSA/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/ParteekMarve/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0904-fruit-into-baskets](https://github.com/ParteekMarve/DSA/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/ParteekMarve/DSA/tree/master/0930-binary-subarrays-with-sum) |
@@ -38,6 +40,7 @@ ON THE WAY TO BE GOOD AT DSA
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ParteekMarve/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/ParteekMarve/DSA/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/ParteekMarve/DSA/tree/master/0424-longest-repeating-character-replacement) |
 ## Binary Search
 |  |
