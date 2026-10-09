@@ -16,6 +16,7 @@ ON THE WAY TO BE GOOD AT DSA
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ParteekMarve/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/ParteekMarve/DSA/tree/master/0076-minimum-window-substring) |
+| [0146-lru-cache](https://github.com/ParteekMarve/DSA/tree/master/0146-lru-cache) |
 | [0424-longest-repeating-character-replacement](https://github.com/ParteekMarve/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0460-lfu-cache](https://github.com/ParteekMarve/DSA/tree/master/0460-lfu-cache) |
 | [0904-fruit-into-baskets](https://github.com/ParteekMarve/DSA/tree/master/0904-fruit-into-baskets) |
@@ -49,13 +50,16 @@ ON THE WAY TO BE GOOD AT DSA
 ## Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/ParteekMarve/DSA/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/ParteekMarve/DSA/tree/master/0460-lfu-cache) |
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/ParteekMarve/DSA/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/ParteekMarve/DSA/tree/master/0460-lfu-cache) |
 ## Doubly-Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/ParteekMarve/DSA/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/ParteekMarve/DSA/tree/master/0460-lfu-cache) |
 <!---LeetCode Topics End-->
