@@ -43,6 +43,7 @@ ON THE WAY TO BE GOOD AT DSA
 | [0003-longest-substring-without-repeating-characters](https://github.com/ParteekMarve/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/ParteekMarve/DSA/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/ParteekMarve/DSA/tree/master/0424-longest-repeating-character-replacement) |
+| [0680-valid-palindrome-ii](https://github.com/ParteekMarve/DSA/tree/master/0680-valid-palindrome-ii) |
 ## Binary Search
 |  |
 | ------- |
@@ -62,4 +63,12 @@ ON THE WAY TO BE GOOD AT DSA
 | ------- |
 | [0146-lru-cache](https://github.com/ParteekMarve/DSA/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/ParteekMarve/DSA/tree/master/0460-lfu-cache) |
+## Two Pointers
+|  |
+| ------- |
+| [0680-valid-palindrome-ii](https://github.com/ParteekMarve/DSA/tree/master/0680-valid-palindrome-ii) |
+## Greedy
+|  |
+| ------- |
+| [0680-valid-palindrome-ii](https://github.com/ParteekMarve/DSA/tree/master/0680-valid-palindrome-ii) |
 <!---LeetCode Topics End-->
