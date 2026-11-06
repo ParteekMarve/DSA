@@ -41,6 +41,7 @@ ON THE WAY TO BE GOOD AT DSA
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ParteekMarve/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0032-longest-valid-parentheses](https://github.com/ParteekMarve/DSA/tree/master/0032-longest-valid-parentheses) |
 | [0076-minimum-window-substring](https://github.com/ParteekMarve/DSA/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/ParteekMarve/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0680-valid-palindrome-ii](https://github.com/ParteekMarve/DSA/tree/master/0680-valid-palindrome-ii) |
@@ -71,4 +72,16 @@ ON THE WAY TO BE GOOD AT DSA
 |  |
 | ------- |
 | [0680-valid-palindrome-ii](https://github.com/ParteekMarve/DSA/tree/master/0680-valid-palindrome-ii) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0032-longest-valid-parentheses](https://github.com/ParteekMarve/DSA/tree/master/0032-longest-valid-parentheses) |
+## Stack
+|  |
+| ------- |
+| [0032-longest-valid-parentheses](https://github.com/ParteekMarve/DSA/tree/master/0032-longest-valid-parentheses) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0032-longest-valid-parentheses](https://github.com/ParteekMarve/DSA/tree/master/0032-longest-valid-parentheses) |
 <!---LeetCode Topics End-->
