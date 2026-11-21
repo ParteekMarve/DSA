@@ -21,6 +21,7 @@ ON THE WAY TO BE GOOD AT DSA
 | [0460-lfu-cache](https://github.com/ParteekMarve/DSA/tree/master/0460-lfu-cache) |
 | [0904-fruit-into-baskets](https://github.com/ParteekMarve/DSA/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/ParteekMarve/DSA/tree/master/0930-binary-subarrays-with-sum) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/ParteekMarve/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 ## Sliding Window
 |  |
 | ------- |
@@ -30,6 +31,7 @@ ON THE WAY TO BE GOOD AT DSA
 | [0904-fruit-into-baskets](https://github.com/ParteekMarve/DSA/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/ParteekMarve/DSA/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/ParteekMarve/DSA/tree/master/1004-max-consecutive-ones-iii) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/ParteekMarve/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ParteekMarve/DSA/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 ## Prefix Sum
 |  |
@@ -45,6 +47,7 @@ ON THE WAY TO BE GOOD AT DSA
 | [0076-minimum-window-substring](https://github.com/ParteekMarve/DSA/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/ParteekMarve/DSA/tree/master/0424-longest-repeating-character-replacement) |
 | [0680-valid-palindrome-ii](https://github.com/ParteekMarve/DSA/tree/master/0680-valid-palindrome-ii) |
+| [1358-number-of-substrings-containing-all-three-characters](https://github.com/ParteekMarve/DSA/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 ## Binary Search
 |  |
 | ------- |
